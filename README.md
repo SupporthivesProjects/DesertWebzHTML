@@ -1,8 +1,8 @@
-# Desertdigitals
+# Desertwebz
 
 TimeLine full day<br>
-Start Date : 05/11/2026<br>
-End Date : 07/11/2026 (EOD)<br>
+Start Date : 16/11/2026<br>
+End Date : 18/11/2026 (EOD)<br>
 
 # Developer Team
 Developer Team:Vijay,Rahul,Dhiraj,Saakshi-C,Saakshi-K,Tirthak,Diksha<br>
@@ -42,8 +42,8 @@ QA - Parth/Shailesh<br>
 Diksha: Invoice / Email Templates.
 
 # Figma
-figma copy-version:- https://www.figma.com/design/iBt7xxFfDTz2fhGX5vIe8J/AD570---Reskin-Web-Dev---Desertdigitals.com--Copy-?t=3QP865PbCHViP2HR-0
+figma copy-version:- https://www.figma.com/design/9V6myLQbn9nptwChMHrHEL/AD572---Reskin-Web-Dev---Desertwebz.com--Copy-?node-id=12208-11458&t=l3yW8KvSFmav7HEg-0
 
-live figma :- https://www.figma.com/design/Clup6WIoXTgiBjOkFFIu2d/AD570---Reskin-Web-Dev---Desertdigitals.com?node-id=12178-2258&t=ce7v1kE61OOS4V7l-0 <br>
+live figma :- https://www.figma.com/design/Flr9e4WDPLbMhfahMbOorw/AD572---Reskin-Web-Dev---Desertwebz.com?node-id=12208-11463&m=dev <br>
 
-prototype figma:- https://www.figma.com/proto/Clup6WIoXTgiBjOkFFIu2d/AD570---Reskin-Web-Dev---Desertdigitals.com?node-id=12192-2699&t=ce7v1kE61OOS4V7l-0&scaling=min-zoom&content-scaling=fixed&page-id=3357%3A851
+prototype figma:- https://www.figma.com/proto/Flr9e4WDPLbMhfahMbOorw/AD572---Reskin-Web-Dev---Desertwebz.com?node-id=12208-11358&m=dev&scaling=min-zoom&content-scaling=fixed&page-id=3357%3A851
