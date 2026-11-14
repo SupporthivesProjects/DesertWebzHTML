@@ -72,8 +72,8 @@
                     <span>Desertwebz Ltd, 12 Market Street, London EC1A 1BB, United Kingdom. <a href="#">support@desertwebz.com</a>
                     </span>
                     <nav>
-                        <a href="#">Terms and conditions</a>
-                        <a href="#">Privacy policy</a>
+                        <a href="terms.php">Terms and conditions</a>
+                        <a href="privacy.php">Privacy policy</a>
                         <span>© 2026 Desertwebz Ltd</span>
                     </nav>
                     <div class="pay">
