@@ -17,13 +17,13 @@ QA - Parth/Shailesh<br>
 
 | Team Member | Assigned Pages / Responsibilities |
 |---|---|
-| Vijay | Header, Footer, Terms & Conditions, Privacy Policy, Error Pages, All Modals & Popups |
-| Rahul | Home Page, All Modals & Popups |
-| Dhiraj | Store, Product, Contact Us, All Modals & Popups |
-| Tirthak | Dashboard, All Modals & Popups |
-| Saakshi C | Cart, Checkout, Checkout Success/Failed, All Modals & Popups |
-| Sakshi K | About Us, One on One, All Modals & Popups |
-| Diksha | Login, Register, Reset Password, Forgot Password, All Modals & Popups |
+| Vijay | Header, Footer, Terms, Privacy, Error, All modal & Popup |
+| Rahul | Cart, Checkout, Checkout Success / Failed, All modal & Popup |
+| Dhiraj | HomePage, Contact Us, All modal & Popup |
+| Tirthak | About Us, 1 on 1, All modal & Popup |
+| Saakshi C | Dashboard, All modal & Popup |
+| Sakshi K | Store, Product Details, All modal & Popup |
+| Diksha | Login, Register, Reset, Forgot, All modal & Popus |
 
 
 ## Common Project Responsibilities
@@ -39,7 +39,7 @@ QA - Parth/Shailesh<br>
 
 # Email Template
 
-Diksha: Invoice / Email Templates.
+Rahul: Invoice / Email Templates.
 
 # Figma
 figma copy-version:- https://www.figma.com/design/9V6myLQbn9nptwChMHrHEL/AD572---Reskin-Web-Dev---Desertwebz.com--Copy-?node-id=12208-11458&t=l3yW8KvSFmav7HEg-0
