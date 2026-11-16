@@ -22,7 +22,7 @@
                       <img src="./assets/img/logo.svg" class="img-fluid">
                       <span>desertwebz</span>
                     </a>
-                      <div class="d-lg-none d-md-none d-flex">
+                      <div class="d-lg-none d-md-flex d-flex">
                         <div class="cart-icon bg-color-sky">
                           <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M5 5.83333H15L14.1667 16.6667H5.83333L5 5.83333Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="#E6F1F4"/>
