@@ -23,7 +23,7 @@ QA - Parth/Shailesh<br>
 | Tirthak | About Us, 1 on 1, All modal & Popup |
 | Saakshi C | Dashboard, All modal & Popup |
 | Sakshi K | Store, Product Details, All modal & Popup |
-| Diksha | Login, Register, Reset, Forgot, All modal & Popus |
+| Vijay | Login, Register, Reset, Forgot, All modal & Popus |
 
 
 ## Common Project Responsibilities
