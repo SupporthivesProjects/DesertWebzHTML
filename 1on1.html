@@ -497,7 +497,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                 <div class="single_three_t">
+                                <div class="single_three_t">
                                     <div class="single_dif_anglet four_margin">
                                         <svg class="mobile_nonet" xmlns="http://www.w3.org/2000/svg" width="32"
                                             height="32" viewBox="0 0 32 32" fill="none">
@@ -662,7 +662,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                 <div class="single_three_t">
+                                <div class="single_three_t">
                                     <div class="single_dif_anglet seven_margin">
                                         <svg class="mobile_nonet" xmlns="http://www.w3.org/2000/svg" width="32"
                                             height="32" viewBox="0 0 32 32" fill="none">
@@ -773,7 +773,7 @@
                                             <h3>Redirects after a redesign</h3>
                                         </div>
                                     </div>
-                                    
+
                                 </div>
 
                             </div>
@@ -940,7 +940,93 @@
                             </div>
                         </div>
                     </section>
-                    <section class="one_5"></section>
+                    <section class="one_5 universal_pad">
+                        <div class="container_ts mx-auto">
+                            <h1>Questions about <span>1 on 1.</span></h1>
+
+                            <div class="faq_divt">
+
+                                <div class="faq_accordion_t">
+
+                                    <div class="faq_item_t active_t">
+                                        <button class="faq_question_t" type="button" aria-expanded="true">
+                                            <span>Do I need to prepare anything?</span>
+                                            <span class="faq_icon_t">
+                                                <!-- Minus icon -->
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                                                    viewBox="0 0 36 36" fill="none">
+                                                    <circle cx="18" cy="18" r="18" fill="#07101E" />
+                                                    <path d="M12 18H24" stroke="#E6F1F4" stroke-width="1.5" />
+                                                </svg>
+                                            </span>
+                                        </button>
+
+                                        <div class="faq_answer_t">
+                                            <p>A short note on what you are working on and where it stops is enough.
+                                                Links or files help if you have them.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="faq_item_t">
+                                        <button class="faq_question_t" type="button" aria-expanded="false">
+                                            <span>Which tools can you help with?</span>
+                                            <span class="faq_icon_t">
+                                                <!-- Plus icon -->
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                                                    viewBox="0 0 36 36" fill="none">
+                                                    <circle cx="18" cy="18" r="18" fill="#F0F4F5" />
+                                                    <path d="M12 18H24M18 12V24" stroke="#0B1626" stroke-width="1.5" />
+                                                </svg>
+                                            </span>
+                                        </button>
+
+                                        <div class="faq_answer_t">
+                                            <p>We can help with a wide range of development tools, frameworks and
+                                                workflows.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="faq_item_t">
+                                        <button class="faq_question_t" type="button" aria-expanded="false">
+                                            <span>Can I book the same developer again?</span>
+                                            <span class="faq_icon_t">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                                                    viewBox="0 0 36 36" fill="none">
+                                                    <circle cx="18" cy="18" r="18" fill="#F0F4F5" />
+                                                    <path d="M12 18H24M18 12V24" stroke="#0B1626" stroke-width="1.5" />
+                                                </svg>
+                                            </span>
+                                        </button>
+
+                                        <div class="faq_answer_t">
+                                            <p>Yes, you can book another session with the same developer, subject to
+                                                availability.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="faq_item_t">
+                                        <button class="faq_question_t" type="button" aria-expanded="false">
+                                            <span>What if we run out of time?</span>
+                                            <span class="faq_icon_t">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                                                    viewBox="0 0 36 36" fill="none">
+                                                    <circle cx="18" cy="18" r="18" fill="#F0F4F5" />
+                                                    <path d="M12 18H24M18 12V24" stroke="#0B1626" stroke-width="1.5" />
+                                                </svg>
+                                            </span>
+                                        </button>
+
+                                        <div class="faq_answer_t">
+                                            <p>You can book another session to continue working through the remaining
+                                                tasks.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
                 </main>
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
@@ -1202,3 +1288,48 @@
     </body>
 
     </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        document.querySelectorAll('.faq_question_t').forEach(function (button) {
+
+            button.addEventListener('click', function () {
+
+                const item = this.closest('.faq_item_t');
+                const isActive = item.classList.contains('active_t');
+
+                item.classList.toggle('active_t', !isActive);
+                this.setAttribute('aria-expanded', !isActive);
+
+                const icon = this.querySelector('.faq_icon_t');
+
+                if (!isActive) {
+                    icon.innerHTML = `
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                    <circle cx="18" cy="18" r="18" fill="#07101E"/>
+                    <path d="M12 18H24" stroke="#E6F1F4" stroke-width="1.5"/>
+                </svg>`;
+                } else {
+                    icon.innerHTML = `
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                    <circle cx="18" cy="18" r="18" fill="#F0F4F5"/>
+                    <path d="M12 18H24M18 12V24" stroke="#0B1626" stroke-width="1.5"/>
+                </svg>`;
+                }
+
+            });
+
+        });
+    </script>
