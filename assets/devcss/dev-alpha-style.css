@@ -467,6 +467,7 @@
 .forgot-right .row-input label {
     color: var(--brand-teal, #1C7880);
 }
+
 .modal-body-text-diloga .modal-body {
     padding: 48px;
     display: flex;
@@ -510,6 +511,14 @@
     font-weight: 500;
     line-height: 150%;
     letter-spacing: -0.16px;
+}
+.signup-leftimg::after{
+    content: " ";
+    background: url(../img/sign-img.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+
 }
 /* --------------------------media query---------------------------- */
 @media (min-width: 600px) and (max-width: 900px) {
