@@ -114,12 +114,12 @@
 }
 @media screen and (min-width: 1801px) and (max-width: 1920px){
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-     max-width: 1760px;
+     max-width: 1440px;
   }
 }
 @media screen and (min-width: 1921px) and (max-width: 2880px){
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    max-width: 1760px;
+    max-width: 1440px;
   } 
 }
 .bg-image {
