@@ -856,15 +856,39 @@
                                         </div>
                                     </div>
                                     <div class="whole_input_t">
-                                        <h1>What you are stuck on</h1>
-                                        <input type="text" placeholder="WordPress" class="input_t">
-
-                                    </div>
-                                    <div class="whole_input_t">
                                         <h1>Phone (optional)</h1>
                                         <input type="text" placeholder="+44 7700 900123" class="input_t">
 
                                     </div>
+
+                                    <div class="whole_input_t">
+                                        <h1>What you are stuck on</h1>
+
+                                        <div class="custom_dropdown">
+                                            <div class="dropdown_selected">
+                                                <span class="selected_text">WordPress</span>
+
+                                                <span class="dropdown_arrow">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                        viewBox="0 0 20 20" fill="none">
+                                                        <path d="M5 7.5L10 12.5L15 7.5" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round"
+                                                            stroke="#56656F" />
+                                                    </svg>
+                                                </span>
+                                            </div>
+
+                                            <div class="dropdown_options">
+                                                <div class="dropdown_option">WordPress</div>
+                                                <div class="dropdown_option">HTML</div>
+                                                <div class="dropdown_option">CSS</div>
+                                                <div class="dropdown_option">JavaScript</div>
+                                                <div class="dropdown_option">PHP</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
                                     <div class="whole_input_t">
                                         <h1>Tell us more</h1>
                                         <textarea
@@ -1303,6 +1327,47 @@
 
 
     <script>
+
+document.querySelectorAll('.custom_dropdown').forEach(dropdown => {
+
+    const selected = dropdown.querySelector('.dropdown_selected');
+    const selectedText = dropdown.querySelector('.selected_text');
+    const options = dropdown.querySelectorAll('.dropdown_option');
+
+    // Open and close dropdown
+    selected.addEventListener('click', (e) => {
+        e.stopPropagation();
+
+        // Close other dropdowns
+        document.querySelectorAll('.custom_dropdown').forEach(item => {
+            if (item !== dropdown) {
+                item.classList.remove('active');
+            }
+        });
+
+        dropdown.classList.toggle('active');
+    });
+
+    // Select option
+    options.forEach(option => {
+        option.addEventListener('click', () => {
+            selectedText.textContent = option.textContent;
+            dropdown.classList.remove('active');
+        });
+    });
+
+});
+
+// Close dropdown when clicking outside
+document.addEventListener('click', () => {
+    document.querySelectorAll('.custom_dropdown').forEach(dropdown => {
+        dropdown.classList.remove('active');
+    });
+});
+
+
+
+
         document.querySelectorAll('.faq_question_t').forEach(function (button) {
 
             button.addEventListener('click', function () {
