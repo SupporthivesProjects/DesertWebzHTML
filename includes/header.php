@@ -142,12 +142,12 @@
                           <path d="M3.75 16.75C4.65 13.75 7.05 12.25 10 12.25C12.95 12.25 15.35 13.75 16.25 16.75" stroke-width="1.5" stroke-linecap="round" stroke="#E6F1F4"/>
                         </svg>
                       </div>
-                      <div class="cart-icon bg-color-sky">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M5 5.83333H15L14.1667 16.6667H5.83333L5 5.83333Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="#E6F1F4"/>
-                          <path d="M7.5 5.83333C7.5 5.17029 7.76339 4.5344 8.23223 4.06556C8.70107 3.59672 9.33696 3.33333 10 3.33333C10.663 3.33333 11.2989 3.59672 11.7678 4.06556C12.2366 4.5344 12.5 5.17029 12.5 5.83333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="#E6F1F4"/>
-                        </svg>
-                      </div>
+                      <div class="gr fd" style="--d:.3s">
+                <a href="#" class="gc" aria-label="Cart">
+                    <svg class="ic">
+                        <use href="#i-bag" />
+                    </svg><b>0</b></a>
+            </div>
                       <div class="login-sing-mo">
                           <div class="login-sing btn-wrap">
                             <a href="#" class="btn btn-login">Log in</a>
