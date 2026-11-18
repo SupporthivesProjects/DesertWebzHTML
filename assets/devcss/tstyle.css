@@ -373,7 +373,7 @@
 }
 
 .whole_input_t {
-     position: relative;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -526,6 +526,30 @@
     align-items: center;
     border-radius: 999px;
     background: var(--brand-night, #07101E);
+    color: var(--brand-ice, #E6F1F4);
+
+    /* button / small */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 24px */
+    letter-spacing: -0.16px;
+    cursor: pointer;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.black_button_t:hover {
+    display: inline-flex;
+    height: 56px;
+    padding: 0 28px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    background: var(--brand-navy, #0C1A2C);
+    box-shadow: 0 0 24px 0 rgba(143, 219, 224, 0.45);
     color: var(--brand-ice, #E6F1F4);
 
     /* button / small */
@@ -771,6 +795,18 @@
     line-height: 150%;
     /* 24px */
     letter-spacing: -0.16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.whitebtn_t:hover {
+    display: inline-flex;
+    height: 56px;
+    padding: 0 28px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    background: var(--brand-starlight, #F2FCFD);
+    box-shadow: 0 0 24px 0 rgba(143, 219, 224, 0.45);
 }
 
 .about_2 {
@@ -1285,8 +1321,9 @@
     left: 53.5%;
     position: absolute;
 }
+
 .diff_three_postiont {
-     bottom: 12.1%;
+    bottom: 12.1%;
     right: 12.3%;
     position: absolute;
 }
@@ -1469,23 +1506,36 @@
 .faq_item_t.active_t .faq_question_t {
     padding-bottom: 16px;
 }
-.grey_button_t {
-        display: flex;
-height: 56px;
-padding: 0 28px;
-justify-content: center;
-align-items: center;
-border-radius: 999px;
-background: var(--brand-surface, #E0E9EC);
-color: var(--brand-text, #0B1626);
 
-/* button / small */
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 150%; /* 24px */
-letter-spacing: -0.16px;
+.grey_button_t {
+    display: flex;
+    height: 56px;
+    padding: 0 28px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    background: var(--brand-surface, #E0E9EC);
+    color: var(--brand-text, #0B1626);
+
+    /* button / small */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 24px */
+    letter-spacing: -0.16px;
+}
+
+.grey_button_t:hover {
+    display: inline-flex;
+    height: 56px;
+    padding: 0 28px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    background: var(--brand-border, #D5DEE2);
+    box-shadow: 0 0 24px 0 rgba(143, 219, 224, 0.45);
 }
 
 @media only screen and (max-width: 700px) {
@@ -2248,7 +2298,9 @@ letter-spacing: -0.16px;
         align-self: stretch;
     }
 
-    .diff_one_postiont,.diff_two_postiont,.diff_three_postiont {
+    .diff_one_postiont,
+    .diff_two_postiont,
+    .diff_three_postiont {
         position: unset;
     }
 
@@ -2331,14 +2383,16 @@ letter-spacing: -0.16px;
         left: 56.5%;
         position: absolute;
     }
+
     .diff_three_postiont {
-    bottom: 12.1%;
-    right: 0.1%;
-    position: absolute;
-}
-.dif_width_smallscrenn {
-    max-width: 120px;
-}
+        bottom: 12.1%;
+        right: 0.1%;
+        position: absolute;
+    }
+
+    .dif_width_smallscrenn {
+        max-width: 120px;
+    }
 }
 
 @media only screen and (min-width: 1152px) and (max-width:1279px) {
@@ -2352,14 +2406,16 @@ letter-spacing: -0.16px;
         left: 55.5%;
         position: absolute;
     }
+
     .diff_three_postiont {
-    bottom: 12.1%;
-    right: 1.1%;
-    position: absolute;
-}
-.dif_width_smallscrenn {
-    max-width: 150px;
-}
+        bottom: 12.1%;
+        right: 1.1%;
+        position: absolute;
+    }
+
+    .dif_width_smallscrenn {
+        max-width: 150px;
+    }
 }
 
 @media only screen and (min-width: 1280px) and (max-width:1348px) {
@@ -2373,14 +2429,16 @@ letter-spacing: -0.16px;
         left: 54.5%;
         position: absolute;
     }
+
     .diff_three_postiont {
-    bottom: 12.1%;
-    right: 2.1%;
-    position: absolute;
-}
-.dif_width_smallscrenn {
-    max-width: 200px;
-}
+        bottom: 12.1%;
+        right: 2.1%;
+        position: absolute;
+    }
+
+    .dif_width_smallscrenn {
+        max-width: 200px;
+    }
 }
 
 @media only screen and (min-width: 1349px) and (max-width:1439px) {
@@ -2394,14 +2452,16 @@ letter-spacing: -0.16px;
         left: 54.5%;
         position: absolute;
     }
+
     .diff_three_postiont {
-    bottom: 12.1%;
-    right: 4.1%;
-    position: absolute;
-}
-.dif_width_smallscrenn {
-    max-width: 200px;
-}
+        bottom: 12.1%;
+        right: 4.1%;
+        position: absolute;
+    }
+
+    .dif_width_smallscrenn {
+        max-width: 200px;
+    }
 }
 
 @media only screen and (min-width: 1440px) and (max-width:1499px) {
@@ -2415,11 +2475,12 @@ letter-spacing: -0.16px;
         left: 54.5%;
         position: absolute;
     }
+
     .diff_three_postiont {
-    bottom: 12.1%;
-    right: 0.1%;
-    position: absolute;
-}
+        bottom: 12.1%;
+        right: 0.1%;
+        position: absolute;
+    }
 }
 
 @media only screen and (min-width: 1500px) and (max-width:1599px) {
@@ -2433,11 +2494,12 @@ letter-spacing: -0.16px;
         left: 54.5%;
         position: absolute;
     }
+
     .diff_three_postiont {
-    bottom: 12.1%;
-    right:2.1%;
-    position: absolute;
-}
+        bottom: 12.1%;
+        right: 2.1%;
+        position: absolute;
+    }
 }
 
 @media only screen and (min-width: 1600px) and (max-width:1699px) {
@@ -2445,11 +2507,12 @@ letter-spacing: -0.16px;
         top: 49.37%;
         left: 31.2%;
     }
+
     .diff_three_postiont {
-    bottom: 12.1%;
-    right: 5.1%;
-    position: absolute;
-}
+        bottom: 12.1%;
+        right: 5.1%;
+        position: absolute;
+    }
 }
 
 @media only screen and (min-width: 1700px) and (max-width:1799px) {
@@ -2457,11 +2520,12 @@ letter-spacing: -0.16px;
         top: 49.37%;
         left: 32.2%;
     }
+
     .diff_three_postiont {
-    bottom: 12.1%;
-    right: 7.1%;
-    position: absolute;
-}
+        bottom: 12.1%;
+        right: 7.1%;
+        position: absolute;
+    }
 }
 
 @media only screen and (min-width: 1800px) and (max-width:1919px) {
@@ -2469,9 +2533,10 @@ letter-spacing: -0.16px;
         top: 49.37%;
         left: 33.2%;
     }
+
     .diff_three_postiont {
-    bottom: 12.1%;
-    right: 10.1%;
-    position: absolute;
-}
+        bottom: 12.1%;
+        right: 10.1%;
+        position: absolute;
+    }
 }
