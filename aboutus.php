@@ -4,8 +4,8 @@
                     <section class="about_1 diferent_padd">
                         <div class="container_ts mx-auto">
                             <div class="one_in_one">
-                                <h1>About <br class="desktop_nonet"> <span>Desertwebz.</span></h1>
-                                <h2>We put together guides and tools for the parts<br class="mobile_nonet"> of building
+                                <h1 loading="lazy">About <br class="desktop_nonet"> <span>Desertwebz.</span></h1>
+                                <h2 loading="lazy">We put together guides and tools for the parts<br class="mobile_nonet"> of building
                                     a website that people get stuck on.</h2>
                             </div>
                         </div>
@@ -14,8 +14,8 @@
 
                         <div class="container_ts mx-auto">
                             <div class="inner_about2">
-                                <h1>Why the store <span>exists today.</span></h1>
-                                <h2>Most people learning to build websites do not need a course that covers everything.
+                                <h1 loading="lazy">Why the store <span>exists today.</span></h1>
+                                <h2 loading="lazy">Most people learning to build websites do not need a course that covers everything.
                                     They
                                     need the one part that is stopping them today: a menu that will not fold away on a
                                     phone, a redirect that loops, a theme update that undid their changes.
@@ -30,36 +30,36 @@
                     <section class="about_3 universal_pad2">
                         <div class="container_ts mx-auto" style="display: flex; flex-direction: column;">
                             <div class="top_about3 mx-auto">
-                                <h1>What we look for <span>in a product.</span></h1>
-                                <h2>The questions we ask before anything goes on a shelf. A product has to answer each
+                                <h1 loading="lazy">What we look for <span>in a product.</span></h1>
+                                <h2 loading="lazy">The questions we ask before anything goes on a shelf. A product has to answer each
                                     one before it earns a place in the store.</h2>
                             </div>
                             <img src="./assets/img/line_starst.svg" class="img-fluid mobile_nonet line_starst">
 
                             <div class="bottom_about3">
                                 <div class="single_bottom__about3 mobile_nonet">
-                                    <h3>One job</h3>
-                                    <h4>Solves one problem well, instead of ten problems loosely, so you find the answer
+                                    <h3 loading="lazy">One job</h3>
+                                    <h4 loading="lazy">Solves one problem well, instead of ten problems loosely, so you find the answer
                                         without wading.</h4>
                                 </div>
                                 <div class="single_bottom__about3 mobile_nonet">
-                                    <h3>Clear format</h3>
-                                    <h4>Book, video, tool or template, plain at a glance, so you know how you will
+                                    <h3 loading="lazy">Clear format</h3>
+                                    <h4 loading="lazy">Book, video, tool or template, plain at a glance, so you know how you will
                                         learn.</h4>
                                 </div>
                                 <div class="single_bottom__about3 mobile_nonet">
-                                    <h3>Listed in full</h3>
-                                    <h4>Its page sets out what you get inside, from the first lesson to the last file.
+                                    <h3 loading="lazy">Listed in full</h3>
+                                    <h4 loading="lazy">Its page sets out what you get inside, from the first lesson to the last file.
                                     </h4>
                                 </div>
                                 <div class="single_bottom__about3 mobile_nonet">
-                                    <h3>Plain language</h3>
-                                    <h4>Written for people who build sites, free of jargon, clear enough to follow step
+                                    <h3 loading="lazy">Plain language</h3>
+                                    <h4 loading="lazy">Written for people who build sites, free of jargon, clear enough to follow step
                                         by step.</h4>
                                 </div>
                                 <div class="single_bottom__about3 mobile_nonet">
-                                    <h3>Worth returning to</h3>
-                                    <h4>Something you open again later, when the same problem returns on the next site
+                                    <h3 loading="lazy">Worth returning to</h3>
+                                    <h4 loading="lazy">Something you open again later, when the same problem returns on the next site
                                         you build.</h4>
                                 </div>
 
@@ -95,8 +95,8 @@
                                             </div>
                                         </div>
                                         <div class="single_bottom__about3">
-                                            <h3>One job</h3>
-                                            <h4>Solves one problem well, instead of ten problems loosely, so you find
+                                            <h3 loading="lazy">One job</h3>
+                                            <h4 loading="lazy">Solves one problem well, instead of ten problems loosely, so you find
                                                 the
                                                 answer without wading.</h4>
                                         </div>
@@ -134,8 +134,8 @@
                                             </div>
                                         </div>
                                         <div class="single_bottom__about3">
-                                            <h3>Clear format</h3>
-                                            <h4>Book, video, tool or template, plain at a glance, so you know how you
+                                            <h3 loading="lazy">Clear format</h3>
+                                            <h4 loading="lazy">Book, video, tool or template, plain at a glance, so you know how you
                                                 will learn.</h4>
                                         </div>
                                     </div>
@@ -174,8 +174,8 @@
                                             </div>
                                         </div>
                                         <div class="single_bottom__about3">
-                                            <h3>Listed in full</h3>
-                                            <h4>Its page sets out what you get inside, from the first lesson to the
+                                            <h3 loading="lazy">Listed in full</h3>
+                                            <h4 loading="lazy">Its page sets out what you get inside, from the first lesson to the
                                                 last file.</h4>
                                         </div>
                                     </div>
@@ -212,8 +212,8 @@
                                             </div>
                                         </div>
                                         <div class="single_bottom__about3">
-                                            <h3>Plain language</h3>
-                                            <h4>Written for people who build sites, free of jargon, clear enough to
+                                            <h3 loading="lazy">Plain language</h3>
+                                            <h4 loading="lazy">Written for people who build sites, free of jargon, clear enough to
                                                 follow step by step.</h4>
                                         </div>
                                     </div>
@@ -248,8 +248,8 @@
 
                                         </div>
                                         <div class="single_bottom__about3">
-                                            <h3>Worth returning to</h3>
-                                            <h4>Something you open again later, when the same problem returns on the
+                                            <h3 loading="lazy">Worth returning to</h3>
+                                            <h4 loading="lazy">Something you open again later, when the same problem returns on the
                                                 next site you build.</h4>
                                         </div>
                                     </div>
@@ -263,8 +263,8 @@
                         <div class="col-md-6">
                             <div class="left_about4t" style="height: 100%;">
                                 <div class="innerleft_about4t">
-                                    <h1>A small catalogue, <span>on purpose.</span></h1>
-                                    <p>We would rather stock fewer products we can stand behind than fill every shelf.
+                                    <h1 loading="lazy">A small catalogue, <span>on purpose.</span></h1>
+                                    <p loading="lazy">We would rather stock fewer products we can stand behind than fill every shelf.
                                         When something no longer earns its place, it comes off.
                                         <br><br>
                                         Every product sits on a shelf, and every shelf sits on one map, so you can see
@@ -282,8 +282,8 @@
                     <section class="about_5 very_diff_padt">
                         <div class="container_ts mx-auto">
                             <div class="inner_about5">
-                                <h1>Who the store is for.</h1>
-                                <h2>People who build websites for themselves, for clients or for the business they run.
+                                <h1 loading="lazy">Who the store is for.</h1>
+                                <h2 loading="lazy">People who build websites for themselves, for clients or for the business they run.
                                 </h2>
                             </div>
                             <div class="mobile_nonet">
@@ -321,8 +321,8 @@
                                     </div>
 
                                     <div class="right_single_of_about5">
-                                        <h1>Writing a first page</h1>
-                                        <h2>Learning what each part of a page does, and how the parts of a page
+                                        <h1 loading="lazy">Writing a first page</h1>
+                                        <h2 loading="lazy">Learning what each part of a page does, and how the parts of a page
                                             fit together.</h2>
                                     </div>
                                 </div>
@@ -364,8 +364,8 @@
                                     </div>
 
                                     <div class="right_single_of_about5">
-                                        <h1>Building for clients</h1>
-                                        <h2>A second pair of eyes on the one stubborn part of a client build that will
+                                        <h1 loading="lazy">Building for clients</h1>
+                                        <h2 loading="lazy">A second pair of eyes on the one stubborn part of a client build that will
                                             not behave.</h2>
                                     </div>
                                 </div>
@@ -405,8 +405,8 @@
                                     </div>
 
                                     <div class="right_single_of_about5 dif_width_smallscrenn">
-                                        <h1>Running your own business</h1>
-                                        <h2>Keeping the site running well while you run every other part of the
+                                        <h1 loading="lazy">Running your own business</h1>
+                                        <h2 loading="lazy">Keeping the site running well while you run every other part of the
                                             business.</h2>
                                     </div>
                                 </div>
@@ -439,8 +439,8 @@
                                             </defs>
                                         </svg>
                                         <div class="right_single_of_about5">
-                                            <h1>Writing a first page</h1>
-                                            <h2>Learning what each part of a page does, and how the parts of a page
+                                            <h1 loading="lazy">Writing a first page</h1>
+                                            <h2 loading="lazy">Learning what each part of a page does, and how the parts of a page
                                                 fit together.</h2>
                                         </div>
                                     </div>
@@ -471,8 +471,8 @@
                                             </defs>
                                         </svg>
                                         <div class="right_single_of_about5">
-                                            <h1>Building for clients</h1>
-                                            <h2>A second pair of eyes on the one stubborn part of a client build that
+                                            <h1 loading="lazy">Building for clients</h1>
+                                            <h2 loading="lazy">A second pair of eyes on the one stubborn part of a client build that
                                                 will not behave.</h2>
                                         </div>
                                     </div>
@@ -501,8 +501,8 @@
                                             </defs>
                                         </svg>
                                         <div class="right_single_of_about5">
-                                            <h1>Running your own business</h1>
-                                            <h2>Keeping the site running well while you run every other part of
+                                            <h1 loading="lazy">Running your own business</h1>
+                                            <h2 loading="lazy">Keeping the site running well while you run every other part of
                                                 the business.</h2>
                                         </div>
                                     </div>
@@ -515,8 +515,8 @@
                             <div class="inner_about6 mx-auto">
                                 <img src="./assets/img/lastaboutimg.svg" class="img-fluid mobile_nonet">
                                 <img src="./assets/img/phone_lastaboutsng.svg" class="img-fluid desktop_nonet">
-                                <h1>Some problems are easier with <span>someone beside you.</span></h1>
-                                <h2>Book an hour with a web developer when a product alone will not get you there. Bring
+                                <h1 loading="lazy">Some problems are easier with <span>someone beside you.</span></h1>
+                                <h2 loading="lazy">Book an hour with a web developer when a product alone will not get you there. Bring
                                     the part that is stuck and work through it together, one hour at a time.</h2>
                                 <div class="two_btndivt">
                                     <button type="button" class="black_button_t buttom_hundreed">
