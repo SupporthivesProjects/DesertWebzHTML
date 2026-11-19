@@ -64,9 +64,11 @@
         line-height: 120%;
         letter-spacing: -1px;
     }
-.contact-checkbox {
-    display: flex;
-    align-items: center;}
+
+    .contact-checkbox {
+        display: flex;
+        align-items: center;
+    }
 
     .contact-info__item {
         display: flex;
@@ -75,7 +77,7 @@
         align-items: flex-start;
         gap: 8px;
         align-self: stretch;
-        border-bottom:0px;
+        border-bottom: 0px;
     }
 
     .contact-info__label {
@@ -93,7 +95,7 @@
     .contact-form-wrapper {
         width: 100%;
         padding-left: 0;
-                max-width: 327px;
+        max-width: 327px;
         margin: auto;
         padding: 0px 0px 40px;
     }
@@ -126,6 +128,284 @@
     .contact-form__submit {
         width: 100%;
     }
+
+    /* HOME */
+    .shelves,
+    .best,
+    .stmt,
+    .basics,
+    .oo .wrap,
+    .know,
+    .faq,.inc {
+        padding: 40px 0px !important;
+    }
+
+    .hero.stars h1 {
+        color: var(--brand-ice, #E6F1F4);
+        text-align: center;
+        font-family: "Inter";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%;
+        /* 48px */
+        letter-spacing: -1.2px;
+        margin-top: 16px;
+    }
+
+    .hero.stars .cp p {
+        color: var(--brand-ice, #E6F1F4);
+        text-align: center;
+        font-family: Inter;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 25.5px */
+        margin-top: 16px;
+
+    }
+
+    .hero.stars .eb {
+        color: var(--brand-aqua, #8FDCE0);
+        text-align: center;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        /* 18px */
+        letter-spacing: 2.4px;
+        text-transform: uppercase;
+    }
+
+    .hero.stars .acts {
+        flex-direction: column;
+        gap: 18px;
+        width: 100%;
+    }
+
+    .hero.stars .pb.p1,
+    .hero.stars .pb.p2 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .shelves .lead {
+        color: var(--brand-ice, #E6F1F4);
+        font-family: "Inter";
+        font-size: 17px !important;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 25.5px */
+        margin-top: 16px !important;
+    }
+
+    .shelves .bt {
+        margin-top: 16px !important;
+        width: 100%;
+    }
+
+    .shelves .wrap {
+        gap: 16px !important;
+    }
+
+    .bh {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px !important;
+    }
+
+    .cards {
+        margin-top: 24px !important;
+    }
+
+    #bestsellers .wrap {
+        overflow: hidden;
+    }
+
+    #bestsellers .bh {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    #bestsellers .bh .h2 {
+        font-size: 32px;
+        line-height: 1.2;
+        max-width: 100%;
+    }
+
+    /* Category chips */
+    #bestsellers .chips {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 125%;
+        overflow-x: auto;
+        overflow-y: visible;
+        gap: 8px;
+        white-space: nowrap;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    #bestsellers .chips::-webkit-scrollbar {
+        display: none;
+    }
+
+    #bestsellers .chips button {
+        flex: 0 0 auto;
+    }
+
+    /* Horizontal product carousel */
+    #bestsellers .cards {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 16px;
+        width: calc(100% + 22px);
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding: 0 22px 8px 0;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    #bestsellers .cards::-webkit-scrollbar {
+        display: none;
+    }
+
+    #bestsellers .cards .pc {
+        display: block;
+        flex: 0 0 280px;
+        width: 100%;
+        min-width: 0;
+        height: 361px;
+        scroll-snap-align: start;
+    }
+
+    #bestsellers .cards .pc[hidden] {
+        display: none !important;
+    }
+
+    /* Pagination dots */
+    #bestsellers .mobile-dots {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 6px;
+        margin-top: 12px;
+    }
+
+    #bestsellers .mobile-dots button {
+        width: 8px;
+        height: 8px;
+        padding: 0;
+        border: 0;
+        border-radius: 50%;
+        background: #d8dfe5;
+        cursor: pointer;
+    }
+
+    #bestsellers .mobile-dots button.active {
+        width: 24px;
+        border-radius: 20px;
+        background: #0c1428;
+    }
+
+    .stmt .sent {
+        font-family: "Inter";
+        font-size: 28px !important;
+    }
+
+    .stmt .fr {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 24px;
+        flex-wrap: wrap;
+        border-top: 0px !important;
+        padding-top: 24px !important;
+        margin-top: 0px !important;
+    }
+
+    .stmt .fr p {
+        font-size: 17px !important;
+    }
+
+
+    .stmt .sent .pl {
+        width: 53px !important;
+        height: 29px !important;
+    }
+
+    .basics .wrap,
+    .oo .wrap {
+        grid-template-columns: 1fr;
+        gap: 24px !important;
+    }
+
+    .basics .h2 {
+        font-size: 32px !important;
+        margin-top: 24px !important;
+
+    }
+
+    .basics .lead {
+        font-size: 17px !important;
+        margin-top: 24px !important;
+
+    }
+
+    .rf.in {
+        margin-top: 0px !important;
+
+    }
+
+    .know .more
+{
+            margin-top: 24px !important;
+
+}
+
+.faq .cr{
+    margin-top: 24px !important;
+}
+    .pair img {
+        width: 54px !important;
+        height: 72px !important;
+    }
+
+    .pair b {
+        color: var(--brand-text, #0B1626);
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        /* 25.5px */
+    }
+
+    .oo .wrap {
+        min-height: 0;
+        max-width: 327px !important;
+    }
+
+        .pa {
+        height: auto;
+        padding-left: 6px;
+        margin-top: 0px !important;
+    }
+
+
+
+
+
+
+
+
 
 
 }

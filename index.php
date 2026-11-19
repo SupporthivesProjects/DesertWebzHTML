@@ -1,6 +1,5 @@
 <?php include 'includes/header.php'; ?>
 
-<<<<<<< HEAD
 <link rel="stylesheet" href="assets/css/style.css">
 
         <section class="hero stars" id="dw-02" data-biz="dw" data-opt="02" data-sky="d">
@@ -422,7 +421,6 @@
 
 
     <script src="assets/css/script.js"></script>
-=======
   <svg width="0" height="0" style="position:absolute" aria-hidden="true">
     <symbol id="i-cart" viewBox="0 0 24 24">
       <path d="M3 4h2.2l2.1 10.2a1.6 1.6 0 0 0 1.6 1.3h8.4a1.6 1.6 0 0 0 1.6-1.2L20.6 8H6.1" />
@@ -529,7 +527,6 @@
       <button type="button" class="hint fd" style="--d:1.3s"
         aria-label="Scroll for more"><span>Scroll</span><i></i></button>
     </section>
->>>>>>> dhiraj
 
     <section class="sec shelves" id="shelves" aria-labelledby="h-shelves">
       <canvas class="ngl" aria-hidden="true"></canvas><canvas class="n2d" aria-hidden="true"></canvas>
