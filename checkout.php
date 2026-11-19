@@ -15,6 +15,60 @@
   <div class="checkout_c2 container">
     <div class="checkout_left">
       <h4 class="checkout_lefttitle">Billing <span class="checkout_lefttitleblue">details.</h4>
+      <div class="contact-form__row">
+          <div class="contact-field">
+              <label for="contact-name">Full Name</label>
+              <input type="text" placeholder="John Smith" required>
+          </div>
+          <div class="contact-field">
+              <label for="contact-email">Email</label>
+              <input type="text" placeholder="john@example.com" required>
+          </div>
+      </div>
+      <div class="contact-field">
+          <label for="contact-email">Date of birth</label>
+          <input type="text" placeholder="14 / 06 / 1988" required>
+      </div>
+      <div class="contact-field">
+          <label for="contact-email">Address</label>
+          <input type="text" placeholder="12 Harbour Road" required>
+      </div>
+      <div class="contact-form__row">
+         <div class="bill-field">
+              <label for="" class="bill-label">Country</label>
+              <select name="" id="" class="bill-input form-select">
+                  <option value="">United Kingdom</option>
+                  <option value="">India</option>
+                  <option value="">China</option>
+              </select>
+          </div>
+          <div class="contact-field">
+              <label for="contact-email">City</label>
+              <input type="text" placeholder="Bristol" required>
+          </div>
+          <div class="contact-field">
+              <label for="contact-email">Postcode</label>
+              <input type="text" placeholder="BS1 5TY" required>
+          </div>
+      </div>
+      <!-- TERMS -->
+      <div class="contact-form__terms">
+          <label class="contact-checkbox">
+              <input type="checkbox" required>
+              <span class="contact-checkbox__check"></span>
+              <span>
+                  I agree to the
+                  <a href="#">Terms and Conditions</a>
+                  and
+                  <a href="#">Privacy Policy</a>.
+              </span>
+          </label>
+      </div>
+      <div class="captchabar">
+        <img src="./assets/img/reCAPTCHAcheckbox.png">
+        <button type="button" class="btn cart_btn">Continue to secure payment</button>
+      </div>
+      <p class="cart_discountlabel">You enter your card on our payment provider’s page. Desertwebz never sees your card details.</p>
     </div>
 
 
