@@ -527,6 +527,14 @@
       <button type="button" class="hint fd" style="--d:1.3s"
         aria-label="Scroll for more"><span>Scroll</span><i></i></button>
     </section>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> dhiraj
+=======
+>>>>>>> 663efda (dhiraj)
+>>>>>>> rahul
+>>>>>>> 7631e2f98f64d1261c64fd8313604a6873a22f4b
 
     <section class="sec shelves" id="shelves" aria-labelledby="h-shelves">
       <canvas class="ngl" aria-hidden="true"></canvas><canvas class="n2d" aria-hidden="true"></canvas>
