@@ -17,7 +17,7 @@
         background: #fff;
     }
     @media only screen and (max-width: 600px) {
-        .header-scroll .logo-toggle {
+        .header-scroll .logo-toggle, .header-active .logo-toggle {
             background: #fff;
         }
         .header-scroll .navbar {

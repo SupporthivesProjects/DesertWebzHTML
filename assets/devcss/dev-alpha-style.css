@@ -815,6 +815,22 @@
         display: flex;
     }
 }
+@media (min-width: 990px) and (max-width: 1000px) {
+    .navbar-nav {
+        border-radius: 999px;
+        display: flex;
+        gap: 21px;
+        background: var(--brand-sky, #a0d2e612);
+        justify-content: center;
+        padding: 12px 36px;
+    }
+    .lgin-right {
+        width: 441px;
+        margin: auto;
+        max-width: 100%;
+        margin-bottom: 16px;
+    }
+}
 @media (min-width: 990px) and (max-width: 1190px) {
     .lgin-right {
         width: 475px;
