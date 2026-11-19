@@ -13,7 +13,16 @@
     .nav-link {   
         color: var(--brand-text, #0B1626);
     }
+    .header-scroll .navbar {
+        background: #fff;
+    }
     @media only screen and (max-width: 600px) {
+        .header-scroll .logo-toggle {
+            background: #fff;
+        }
+        .header-scroll .navbar {
+            background: var(--brand-night, #07101E);
+        }
         .nav-link {   
             color: var(--brand-ice, #E6F1F4);
         }
@@ -25,8 +34,8 @@
                 <div class="row p-0">
                     <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                         <div class="lgin-left-img position-relative">
-                            <img src="assets/img/forgot-key.png" alt="" class="img-fluid d-lg-block d-md-block d-sm-none d-none" srcset="assets/img/forgot-key.png">
-                            <img src="assets/img/forgot-key-mo.png" alt="" class="img-fluid d-block d-lg-none d-md-none w-100" srcset="assets/img/forgot-key-mo.png">
+                            <img src="assets/img/forgot-key.png" alt="" class="img-fluid d-lg-block d-md-block d-sm-none d-none" srcset="assets/img/forgot-key.png" loading="lazy">
+                            <img src="assets/img/forgot-key-mo.png" alt="" class="img-fluid d-block d-lg-none d-md-none w-100" srcset="assets/img/forgot-key-mo.png" loading="lazy">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 col-12">
