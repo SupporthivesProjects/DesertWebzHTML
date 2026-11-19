@@ -265,12 +265,202 @@
     background: var(--brand-border, #D5DEE2);
     box-shadow: 0 0 6px 0 rgba(143, 219, 224, 0.45);
 }
+/* CHECKOUT */
+.checkout_s2{
+    padding: 104px 0px;
+}
+.checkout_c2{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+.checkout_left{
+    width: 1005;
+}
+.checkout_lefttitle{
+    color: var(--brand-text, #0B1626);
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -1px;
+    margin: 0px;
+}
+.checkout_lefttitleblue{
+    color: var(--brand-teal, #1C7880);
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120%;
+    letter-spacing: -1px;
+    margin: 0px;
+}
+.checkout_textboxline{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
 
 
 
 
 
 
+
+.checkout_right{
+    display: flex;
+    width: 560px;
+    min-width: 560px;
+    padding: 40px;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 16px;
+    background: var(--brand-frost, #F0F4F5);
+}
+.checkout_righttitle{
+    color: var(--brand-text, #0B1626);
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: -0.22px;
+    margin: 0px;
+}
+.checkout_cartbar{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.checkout_cartbar .cart_s2leftcard{
+    padding: 16px 0px;
+    gap: 24px;
+    border: 0px !important;
+}
+.checkout_cartbar .cart_s2leftcard img{
+    height: 72px;
+}
+.cart_s2leftcardamount{
+    color: var(--brand-text, #0B1626);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0px;
+}
+.checkout_discountlabel{
+    color: var(--brand-teal, #1C7880);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0px;
+}
+.subtotalbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+}
+.subtotaltitle{
+    color: var(--brand-text-secondary, #56656F);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0px;
+}
+.subtotalvalue{
+    color: var(--brand-text, #0B1626);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0px;
+}
+.totaltitle{
+    color: var(--brand-text, #0B1626);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin: 0px;
+}
+.totalvalue{
+    color: var(--brand-text, #0B1626);
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: -0.78px;
+    margin: 0px;
+}
+.checkout_divideline{
+    width: 100%;
+    height: 1px;
+    background-color: #D5DEE2;
+}
+.checkout_discountbar{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.discount_boxbar{
+    width: 100%;
+}
+.discount_boxbar{
+    display: flex;
+    padding: 14px 20px;
+    gap: 16px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid var(--brand-teal, #1C7880);
+    background: var(--brand-frost, #F0F4F5);
+    flex-direction: column;
+    gap: 2px;
+}
+.discount_codetitle{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    align-items: center;
+    color: var(--brand-teal, #1C7880);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.checkout_discountbar .btn{
+    margin: auto;
+}
+.discount_dot{
+    height: 5px;
+    width: 5px;
+    background-color: #1C7880;
+    border-radius: 50px;
+}
+.disount_code{
+    color: var(--brand-text, #0B1626);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0px;
+}
 
 
 
