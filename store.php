@@ -4,11 +4,11 @@
         <div class="store_outer">
             <div class="container store_contaoner">
                 <div class="store_main">
-                    <h1 class="store_head">The store, <span>shelf by shelf.</span> </h1>
-                    <p class="store_p">E-books, video courses, software and templates for people who build websites. Filter by format, topic or price.</p>
+                    <h1 class="store_head" loading="lazy">The store, <span>shelf by shelf.</span> </h1>
+                    <p class="store_p" loading="lazy">E-books, video courses, software and templates for people who build websites. Filter by format, topic or price.</p>
                 </div>
                 <div class="store_main2">
-                    <img src="./assets/img/store_img1.png" alt="" class="store_img">
+                    <img src="./assets/img/store_img1.png" alt="" class="store_img" loading="lazy">
                 </div>
             </div>
         </div>
@@ -19,7 +19,7 @@
                         <div class="store2_main">
                             <input type="text" class="store2_input" placeholder="Search the store">
                             <div class="store2_main_in">
-                                <p class="store2_main_p">Format</p>
+                                <p class="store2_main_p" loading="lazy">Format</p>
                                 <button class=" store2_main_btn">
                                     <img src="./assets/img/store2_main_btn.svg" alt="">
                                     E-books
@@ -53,7 +53,7 @@
                                 </button>
                             </div>
                             <div class="store2_main_in2">
-                                <p class="store2_main_p">Topic</p>
+                                <p class="store2_main_p" loading="lazy">Topic</p>
                                 <div class="store2_main_in_div">
                                     <div class="form-check store2_form_check">
                                         <input class="form-check-input" type="checkbox" value="" id="checkDefault">
@@ -101,7 +101,7 @@
                                 </div>
                             </div>
                             <div class="store_price_filter">
-                                <label class="store2_main_p">PRICE</label>
+                                <label class="store2_main_p" loading="lazy">PRICE</label>
 
                                 <div class="stroe_range_slider">
                                     <div class="store_range_line"></div>
@@ -143,7 +143,7 @@
                     </div>
                     <div class="store2_main2">
                         <div class="store2_main2_in desk_none_sk">
-                            <p class="store2_main2_in_p">All products</p>
+                            <p class="store2_main2_in_p" loading="lazy">All products</p>
                             <div class="dropdown">
                                 <button class="store2_drop btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Sort: Bestsellers
@@ -157,130 +157,130 @@
                         </div>
                         <div class="store2_main2_in2">
                             <div class="store2_main2_in2_carddiv">
-                                <div class="store2_main2_in2_card">
+                                <div class="store2_main2_in2_card" loading="lazy">
                                     <div class="store2_main2_in2_cardin">
                                         <div class="store2_main2_in2_cardindiv">Video course</div>
                                         <img src="./assets/img/store_card_cart.svg" alt="" class="store_card_cart">
                                     </div>
                                     <div class="store2_main2_in2_cardin2">
-                                        <h1>HTML 101 Kickstart</h1>
-                                        <p>$130.00</p>
+                                        <h1 loading="lazy">HTML 101 Kickstart</h1>
+                                        <p loading="lazy">$130.00</p>
                                     </div>
                                 </div>
-                                <div class="store2_main2_in2_card store2_main2_in2_card2">
+                                <div class="store2_main2_in2_card store2_main2_in2_card2" loading="lazy">
                                     <div class="store2_main2_in2_cardin">
                                         <div class="store2_main2_in2_cardindiv">E-book</div>
                                         <img src="./assets/img/store_card_cart.svg" alt="" class="store_card_cart">
                                     </div>
                                     <div class="store2_main2_in2_cardin2">
-                                        <h1>Landing Pages 101</h1>
-                                        <p>$35.00</p>
+                                        <h1 loading="lazy">Landing Pages 101</h1>
+                                        <p loading="lazy">$35.00</p>
                                     </div>
                                 </div>
-                                <div class="store2_main2_in2_card store2_main2_in2_card3">
+                                <div class="store2_main2_in2_card store2_main2_in2_card3" loading="lazy">
                                     <div class="store2_main2_in2_cardin">
                                         <div class="store2_main2_in2_cardindiv">Software</div>
                                         <img src="./assets/img/store_card_cart.svg" alt="" class="store_card_cart">
                                     </div>
                                     <div class="store2_main2_in2_cardin2">
-                                        <h1>WP Engage Plus Plugin</h1>
-                                        <p>$74.00</p>
+                                        <h1 loading="lazy">WP Engage Plus Plugin</h1>
+                                        <p loading="lazy">$74.00</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="store2_main2_in2_carddiv">
-                                <div class="store2_main2_in2_card store2_main2_in2_card4">
+                                <div class="store2_main2_in2_card store2_main2_in2_card4" loading="lazy">
                                     <div class="store2_main2_in2_cardin">
                                         <div class="store2_main2_in2_cardindiv">Video course</div>
                                         <img src="./assets/img/store_card_cart.svg" alt="" class="store_card_cart">
                                     </div>
                                     <div class="store2_main2_in2_cardin2">
-                                        <h1>WordPress Website Security</h1>
-                                        <p>$100.00</p>
+                                        <h1 loading="lazy">WordPress Website Security</h1>
+                                        <p loading="lazy">$100.00</p>
                                     </div>
                                 </div>
-                                <div class="store2_main2_in2_card store2_main2_in2_card5">
+                                <div class="store2_main2_in2_card store2_main2_in2_card5" loading="lazy">
                                     <div class="store2_main2_in2_cardin">
                                         <div class="store2_main2_in2_cardindiv">Template</div>
                                         <img src="./assets/img/store_card_cart.svg" alt="" class="store_card_cart">
                                     </div>
                                     <div class="store2_main2_in2_cardin2">
-                                        <h1>Kickstart Genesis Framework WP Theme</h1>
-                                        <p>$30.99</p>
+                                        <h1 loading="lazy">Kickstart Genesis Framework WP Theme</h1>
+                                        <p loading="lazy">$30.99</p>
                                     </div>
                                 </div>
-                                <div class="store2_main2_in2_card store2_main2_in2_card6">
+                                <div class="store2_main2_in2_card store2_main2_in2_card6" loading="lazy">
                                     <div class="store2_main2_in2_cardin">
                                         <div class="store2_main2_in2_cardindiv">E-book</div>
                                         <img src="./assets/img/store_card_cart.svg" alt="" class="store_card_cart">
                                     </div>
                                     <div class="store2_main2_in2_cardin2">
-                                        <h1>Google Analytics 101</h1>
-                                        <p>$25.00</p>
+                                        <h1 loading="lazy">Google Analytics 101</h1>
+                                        <p loading="lazy">$25.00</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="store2_main2_in2_carddiv">
-                                <div class="store2_main2_in2_card store2_main2_in2_card7">
+                                <div class="store2_main2_in2_card store2_main2_in2_card7" loading="lazy">
                                     <div class="store2_main2_in2_cardin">
                                         <div class="store2_main2_in2_cardindiv">E-book</div>
                                         <img src="./assets/img/store_card_cart.svg" alt="" class="store_card_cart">
                                     </div>
                                     <div class="store2_main2_in2_cardin2">
-                                        <h1>Beginners Guide to Programming</h1>
-                                        <p>$39.99</p>
+                                        <h1 loading="lazy">Beginners Guide to Programming</h1>
+                                        <p loading="lazy">$39.99</p>
                                     </div>
                                 </div>
-                                <div class="store2_main2_in2_card store2_main2_in2_card8">
+                                <div class="store2_main2_in2_card store2_main2_in2_card8" loading="lazy">
                                     <div class="store2_main2_in2_cardin">
                                         <div class="store2_main2_in2_cardindiv">Software</div>
                                         <img src="./assets/img/store_card_cart.svg" alt="" class="store_card_cart">
                                     </div>
                                     <div class="store2_main2_in2_cardin2">
-                                        <h1>Simple PHP Redirect</h1>
-                                        <p>$55.00</p>
+                                        <h1 loading="lazy">Simple PHP Redirect</h1>
+                                        <p loading="lazy">$55.00</p>
                                     </div>
                                 </div>
-                                <div class="store2_main2_in2_card store2_main2_in2_card5">
+                                <div class="store2_main2_in2_card store2_main2_in2_card5" loading="lazy">
                                     <div class="store2_main2_in2_cardin">
                                         <div class="store2_main2_in2_cardindiv">Video course</div>
                                         <img src="./assets/img/store_card_cart.svg" alt="" class="store_card_cart">
                                     </div>
                                     <div class="store2_main2_in2_cardin2">
-                                        <h1>Introduction To WordPress Child Themes</h1>
-                                        <p>$65.00</p>
+                                        <h1 loading="lazy">Introduction To WordPress Child Themes</h1>
+                                        <p loading="lazy">$65.00</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="store2_main2_in2_carddiv">
-                                <div class="store2_main2_in2_card store2_main2_in2_card4">
+                                <div class="store2_main2_in2_card store2_main2_in2_card4" loading="lazy">
                                     <div class="store2_main2_in2_cardin">
                                         <div class="store2_main2_in2_cardindiv">Video course</div>
                                         <img src="./assets/img/store_card_cart.svg" alt="" class="store_card_cart">
                                     </div>
                                     <div class="store2_main2_in2_cardin2">
-                                        <h1>Learning Gutenberg</h1>
-                                        <p>$59.99</p>
+                                        <h1 loading="lazy">Learning Gutenberg</h1>
+                                        <p loading="lazy">$59.99</p>
                                     </div>
                                 </div>
-                                <div class="store2_main2_in2_card store2_main2_in2_card2">
+                                <div class="store2_main2_in2_card store2_main2_in2_card2" loading="lazy">
                                     <div class="store2_main2_in2_cardin">
                                         <div class="store2_main2_in2_cardindiv">E-book</div>
                                         <img src="./assets/img/store_card_cart.svg" alt="" class="store_card_cart">
                                     </div>
                                     <div class="store2_main2_in2_cardin2">
-                                        <h1>Graphic Design Development and Strategy</h1>
-                                        <p>$35.00</p>
+                                        <h1 loading="lazy">Graphic Design Development and Strategy</h1>
+                                        <p loading="lazy">$35.00</p>
                                     </div>
                                 </div>
-                                <div class="store2_main2_in2_card store2_main2_in2_card3">
+                                <div class="store2_main2_in2_card store2_main2_in2_card3" loading="lazy">
                                     <div class="store2_main2_in2_cardin">
                                         <div class="store2_main2_in2_cardindiv">Software</div>
                                         <img src="./assets/img/store_card_cart.svg" alt="" class="store_card_cart">
                                     </div>
                                     <div class="store2_main2_in2_cardin2">
-                                        <h1>Easy Web Visitor Counter</h1>
-                                        <p>$85.00</p>
+                                        <h1 loading="lazy">Easy Web Visitor Counter</h1>
+                                        <p loading="lazy">$85.00</p>
                                     </div>
                                 </div>
                             </div>
@@ -300,11 +300,11 @@
                 <div class="modal-content store_modal">
                     <div class="store_modal_linediv"></div>
                     <div class="store_modal_in">
-                        <h2 class="store_modal_head">Filters</h2>
+                        <h2 class="store_modal_head" loading="lazy">Filters</h2>
                         <a href="" class="store_modal_clear">Clear all</a>
                     </div>
                     <div class="store_modal_in2">
-                        <p class="store2_main_p">Format</p>
+                        <p class="store2_main_p" loading="lazy">Format</p>
                         <div class="store2_main_in">
                             <button class=" store2_main_btn">
                                 <img src="./assets/img/store2_main_btn.svg" alt="">
@@ -357,7 +357,7 @@
                         </div>
                     </div>
                     <div class="store2_main_in2">
-                        <p class="store2_main_p">Topic</p>
+                        <p class="store2_main_p" loading="lazy">Topic</p>
                         <div class="store2_main_in_div">
                             <div class="form-check store2_form_check">
                                 <input class="form-check-input" type="checkbox" value="" id="checkDefault">
@@ -405,7 +405,7 @@
                         </div>
                     </div>
                     <div class="store_price_filter">
-                        <label class="store2_main_p">PRICE</label>
+                        <label class="store2_main_p" loading="lazy">PRICE</label>
 
                         <div class="stroe_range_slider">
                             <div class="store_range_line"></div>
@@ -434,22 +434,22 @@
                 <div class="modal-content store_modal">
                     <div class="store_modal_linediv"></div>
                     <div class="store_modal2_in">
-                        <h2 class="store_modal2_head">Sort by</h2>
+                        <h2 class="store_modal2_head" loading="lazy">Sort by</h2>
                         <div class="store_modal2_main">
                             <div class="store_modal2_div">
-                                <p class="store_modal2_p">Bestsellers</p>
+                                <p class="store_modal2_p" loading="lazy">Bestsellers</p>
                                 <input class="form-check-input store_modal2_radio" type="radio" name="radioDefault" id="radioDefault1">
                             </div>
                             <div class="store_modal2_div">
-                                <p class="store_modal2_p">Newest</p>
+                                <p class="store_modal2_p" loading="lazy">Newest</p>
                                 <input class="form-check-input store_modal2_radio" type="radio" name="radioDefault" id="radioDefault1">
                             </div>
                             <div class="store_modal2_div">
-                                <p class="store_modal2_p">Price, low to high</p>
+                                <p class="store_modal2_p" loading="lazy">Price, low to high</p>
                                 <input class="form-check-input store_modal2_radio" type="radio" name="radioDefault" id="radioDefault1">
                             </div>
                             <div class="store_modal2_div" style="border-bottom: 0px;">
-                                <p class="store_modal2_p">Price, high to low</p>
+                                <p class="store_modal2_p" loading="lazy">Price, high to low</p>
                                 <input class="form-check-input store_modal2_radio" type="radio" name="radioDefault" id="radioDefault1">
                             </div>
                         </div>
