@@ -4,15 +4,15 @@
                     <section class="one_1 diferent_padd">
                         <div class="container_ts mx-auto">
                             <div class="one_in_one">
-                                <h1>1 on 1 <span>sessions.</span></h1>
-                                <h2>Book an hour with a web developer and work through the thing you are stuck on
+                                <h1 loading="lazy">1 on 1 <span>sessions.</span></h1>
+                                <h2 loading="lazy">Book an hour with a web developer and work through the thing you are stuck on
                                     together, on a shared screen.</h2>
                             </div>
                         </div>
                     </section>
                     <section class="one_2 universal_pad">
                         <div class="container_ts mx-auto">
-                            <h1>How a session <span>runs.</span></h1>
+                            <h1 loading="lazy">How a session <span>runs.</span></h1>
                             <div class="bottom_one2">
                                 <div class="line_spacet mobile_nonet">
 
@@ -23,9 +23,9 @@
                                             width="12" height="12" viewBox="0 0 12 12" fill="none">
                                             <circle cx="6" cy="6" r="6" fill="#1C7880" />
                                         </svg>
-                                        <h2>01</h2>
-                                        <h3>Before</h3>
-                                        <h4>Tell us what you are working on and where it stops. Send a link or a few
+                                        <h2 loading="lazy">01</h2>
+                                        <h3 loading="lazy">Before</h3>
+                                        <h4 loading="lazy">Tell us what you are working on and where it stops. Send a link or a few
                                             files if they help. We match you with a developer who knows that part of the
                                             work.</h4>
                                     </div>
@@ -36,9 +36,9 @@
                                                 d="M12 0L14.1213 9.87868L24 12L14.1213 14.1213L12 24L9.87868 14.1213L0 12L9.87868 9.87868L12 0Z"
                                                 fill="#1C7880" />
                                         </svg>
-                                        <h2>02</h2>
-                                        <h3>During</h3>
-                                        <h4>You share your screen and talk it through. The developer explains each
+                                        <h2 loading="lazy">02</h2>
+                                        <h3 loading="lazy">During</h3>
+                                        <h4 loading="lazy">You share your screen and talk it through. The developer explains each
                                             change as you make it, so you can make the next one yourself.</h4>
                                     </div>
                                     <div class="single_main_bottom_one2 no_btomt">
@@ -46,9 +46,9 @@
                                             width="12" height="12" viewBox="0 0 12 12" fill="none">
                                             <circle cx="6" cy="6" r="6" fill="#1C7880" />
                                         </svg>
-                                        <h2>03</h2>
-                                        <h3>After</h3>
-                                        <h4>You keep the notes from the session and any code you wrote together. If
+                                        <h2 loading="lazy">03</h2>
+                                        <h3 loading="lazy">After</h3>
+                                        <h4 loading="lazy">You keep the notes from the session and any code you wrote together. If
                                             something new comes up, book another hour.</h4>
                                     </div>
                                 </div>
@@ -57,7 +57,7 @@
                     </section>
                     <section class="one_3 universal_pad">
                         <div class="container_ts mx-auto">
-                            <h1>What people bring to a <span>session.</span></h1>
+                            <h1 loading="lazy">What people bring to a <span>session.</span></h1>
                             <div class="different_anlges_div">
 
                                 <div class="single_three_t">
@@ -110,8 +110,8 @@
                                         </svg>
 
                                         <div class="right_single_dif_anglet">
-                                            <h2>HTML</h2>
-                                            <h3>A contact form that will not send</h3>
+                                            <h2 loading="lazy">HTML</h2>
+                                            <h3 loading="lazy">A contact form that will not send</h3>
                                         </div>
                                     </div>
                                     <div class="single_dif_anglet two_margin">
@@ -167,8 +167,8 @@
                                         </svg>
 
                                         <div class="right_single_dif_anglet">
-                                            <h2>WordPress</h2>
-                                            <h3>A WordPress theme that keeps breaking</h3>
+                                            <h2 loading="lazy">WordPress</h2>
+                                            <h3 loading="lazy">A WordPress theme that keeps breaking</h3>
                                         </div>
                                     </div>
                                     <div class="single_dif_anglet three_margin">
@@ -220,8 +220,8 @@
                                         </svg>
 
                                         <div class="right_single_dif_anglet">
-                                            <h2>Speed</h2>
-                                            <h3>A page that loads slowly</h3>
+                                            <h2 loading="lazy">Speed</h2>
+                                            <h3 loading="lazy">A page that loads slowly</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -275,8 +275,8 @@
                                         </svg>
 
                                         <div class="right_single_dif_anglet">
-                                            <h2>Hosting</h2>
-                                            <h3>Moving a site to a new host</h3>
+                                            <h2 loading="lazy">Hosting</h2>
+                                            <h3 loading="lazy">Moving a site to a new host</h3>
                                         </div>
                                     </div>
                                     <div class="single_dif_anglet five_margin">
@@ -332,8 +332,8 @@
                                         </svg>
 
                                         <div class="right_single_dif_anglet">
-                                            <h2>Mobile</h2>
-                                            <h3>A layout that breaks on phones</h3>
+                                            <h2 loading="lazy">Mobile</h2>
+                                            <h3 loading="lazy">A layout that breaks on phones</h3>
                                         </div>
                                     </div>
                                     <div class="single_dif_anglet six_margin">
@@ -385,8 +385,8 @@
                                         </svg>
 
                                         <div class="right_single_dif_anglet">
-                                            <h2>PHP</h2>
-                                            <h3>First steps with PHP</h3>
+                                            <h2 loading="lazy">PHP</h2>
+                                            <h3 loading="lazy">First steps with PHP</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -440,8 +440,8 @@
                                         </svg>
 
                                         <div class="right_single_dif_anglet">
-                                            <h2>Analytics</h2>
-                                            <h3>Setting up Google Analytics</h3>
+                                            <h2 loading="lazy">Analytics</h2>
+                                            <h3 loading="lazy">Setting up Google Analytics</h3>
                                         </div>
                                     </div>
                                     <div class="single_dif_anglet eight_margin">
@@ -497,8 +497,8 @@
                                         </svg>
 
                                         <div class="right_single_dif_anglet">
-                                            <h2>SEO</h2>
-                                            <h3>Redirects after a redesign</h3>
+                                            <h2 loading="lazy">SEO</h2>
+                                            <h3 loading="lazy">Redirects after a redesign</h3>
                                         </div>
                                     </div>
 
@@ -506,8 +506,8 @@
 
                             </div>
                             <div class="bottom_one3">
-                                <h5>From <span> $21.74 </span>an hour</h5>
-                                <h6>Booked one hour at a time.</h6>
+                                <h5 loading="lazy">From <span> $21.74 </span>an hour</h5>
+                                <h6 loading="lazy">Booked one hour at a time.</h6>
                                 <button class=" whitebtn_t buttom_hundreed">Book a 1 on 1</button>
                             </div>
                         </div>
@@ -516,9 +516,9 @@
                         <div class="container_ts mx-auto">
                             <div class="inner_one4">
                                 <div class="left_one4">
-                                    <h1>Book a <span>1 on 1.</span></h1>
-                                    <h2>Send the details and we will arrange a time that suits you.</h2>
-                                    <h3 class="mobile_nonet">What happens next</h3>
+                                    <h1 loading="lazy">Book a <span>1 on 1.</span></h1>
+                                    <h2 loading="lazy">Send the details and we will arrange a time that suits you.</h2>
+                                    <h3 loading="lazy" class="mobile_nonet">What happens next</h3>
                                     <div class="whatnext_divt mobile_nonet">
                                         <div class="single_whatnext_divt">
                                             <div class="leftsingle_whatnext_divt">
@@ -531,8 +531,8 @@
                                                 </div>
                                             </div>
                                             <div class="rightsingle_whatnext_divt">
-                                                <h5>We read your note</h5>
-                                                <h6>and pick a developer who knows that part of the work.</h6>
+                                                <h5 loading="lazy">We read your note</h5>
+                                                <h6 loading="lazy">and pick a developer who knows that part of the work.</h6>
                                             </div>
                                         </div>
                                         <div class="single_whatnext_divt">
@@ -546,8 +546,8 @@
                                                 </div>
                                             </div>
                                             <div class="rightsingle_whatnext_divt">
-                                                <h5>We agree a time</h5>
-                                                <h6>by email, at an hour that suits you.</h6>
+                                                <h5 loading="lazy">We agree a time</h5>
+                                                <h6 loading="lazy">by email, at an hour that suits you.</h6>
                                             </div>
                                         </div>
                                         <div class="single_whatnext_divt">
@@ -561,8 +561,8 @@
 
                                             </div>
                                             <div class="rightsingle_whatnext_divt" style="padding-bottom: 0px;">
-                                                <h5>You share your screen</h5>
-                                                <h6>and work through it together.</h6>
+                                                <h5 loading="lazy">You share your screen</h5>
+                                                <h6 loading="lazy">and work through it together.</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -573,24 +573,24 @@
                                 <form class="right_one4">
                                     <div class="double_input_t">
                                         <div class="whole_input_t">
-                                            <h1>Full name</h1>
+                                            <h1 loading="lazy">Full name</h1>
                                             <input type="text" placeholder="John Smith" class="input_t">
 
                                         </div>
                                         <div class="whole_input_t">
-                                            <h1>Email</h1>
+                                            <h1 loading="lazy">Email</h1>
                                             <input type="text" placeholder="john@example.com" class="input_t">
 
                                         </div>
                                     </div>
                                     <div class="whole_input_t">
-                                        <h1>Phone (optional)</h1>
+                                        <h1 loading="lazy">Phone (optional)</h1>
                                         <input type="text" placeholder="+44 7700 900123" class="input_t">
 
                                     </div>
 
                                     <div class="whole_input_t">
-                                        <h1>What you are stuck on</h1>
+                                        <h1 loading="lazy">What you are stuck on</h1>
 
                                         <div class="custom_dropdown">
                                             <div class="dropdown_selected">
@@ -618,7 +618,7 @@
 
 
                                     <div class="whole_input_t">
-                                        <h1>Tell us more</h1>
+                                        <h1 loading="lazy">Tell us more</h1>
                                         <textarea
                                             placeholder="My child theme stopped loading its styles after the last update. I would like a hand finding out why."
                                             class="input_t text_area_height"></textarea>
@@ -626,7 +626,7 @@
                                     </div>
                                     <div class="terms_t_div">
                                         <input type="checkbox" id="check" class="check check_t" checked />
-                                        <p>I agree to the <span>Terms and Conditions</span> and <span>Privacy
+                                        <p loading="lazy">I agree to the <span>Terms and Conditions</span> and <span>Privacy
                                                 Policy.</span></p>
                                     </div>
                                     <img src="./assets/img/captcha.png" class="img-fluid">
@@ -636,7 +636,7 @@
                                     </button>
                                 </form>
                                 <div class="left_one4 desktop_nonet">
-                                    <h3 class="desktop_nonet">What happens next</h3>
+                                    <h3 loading="lazy" class="desktop_nonet">What happens next</h3>
                                 </div>
 
                                 <div class="whatnext_divt desktop_nonet">
@@ -651,8 +651,8 @@
                                             </div>
                                         </div>
                                         <div class="rightsingle_whatnext_divt">
-                                            <h5>We read your note</h5>
-                                            <h6>and pick a developer who knows that part of the work.</h6>
+                                            <h5 loading="lazy">We read your note</h5>
+                                            <h6 loading="lazy">and pick a developer who knows that part of the work.</h6>
                                         </div>
                                     </div>
                                     <div class="single_whatnext_divt">
@@ -666,8 +666,8 @@
                                             </div>
                                         </div>
                                         <div class="rightsingle_whatnext_divt">
-                                            <h5>We agree a time</h5>
-                                            <h6>by email, at an hour that suits you.</h6>
+                                            <h5 loading="lazy">We agree a time</h5>
+                                            <h6 loading="lazy">by email, at an hour that suits you.</h6>
                                         </div>
                                     </div>
                                     <div class="single_whatnext_divt">
@@ -681,8 +681,8 @@
 
                                         </div>
                                         <div class="rightsingle_whatnext_divt" style="padding-bottom: 0px;">
-                                            <h5>You share your screen</h5>
-                                            <h6>and work through it together.</h6>
+                                            <h5 loading="lazy">You share your screen</h5>
+                                            <h6 loading="lazy">and work through it together.</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -694,7 +694,7 @@
                     </section>
                     <section class="one_5 universal_pad">
                         <div class="container_ts mx-auto">
-                            <h1>Questions about <span>1 on 1.</span></h1>
+                            <h1 loading="lazy">Questions about <span>1 on 1.</span></h1>
 
                             <div class="faq_divt">
 
@@ -714,7 +714,7 @@
                                         </button>
 
                                         <div class="faq_answer_t">
-                                            <p>A short note on what you are working on and where it stops is enough.
+                                            <p loading="lazy">A short note on what you are working on and where it stops is enough.
                                                 Links or files help if you have them.</p>
                                         </div>
                                     </div>
@@ -733,7 +733,7 @@
                                         </button>
 
                                         <div class="faq_answer_t">
-                                            <p>We can help with a wide range of development tools, frameworks and
+                                            <p loading="lazy">We can help with a wide range of development tools, frameworks and
                                                 workflows.</p>
                                         </div>
                                     </div>
@@ -751,7 +751,7 @@
                                         </button>
 
                                         <div class="faq_answer_t">
-                                            <p>Yes, you can book another session with the same developer, subject to
+                                            <p loading="lazy">Yes, you can book another session with the same developer, subject to
                                                 availability.</p>
                                         </div>
                                     </div>
@@ -769,7 +769,7 @@
                                         </button>
 
                                         <div class="faq_answer_t">
-                                            <p>You can book another session to continue working through the remaining
+                                            <p loading="lazy">You can book another session to continue working through the remaining
                                                 tasks.</p>
                                         </div>
                                     </div>
@@ -790,8 +790,8 @@
                                     d="M20 0L23.5355 16.4645L40 20L23.5355 23.5355L20 40L16.4645 23.5355L0 20L16.4645 16.4645L20 0Z"
                                     fill="#1C7880" />
                             </svg>
-                            <h1>Brief received</h1>
-                            <h2>Thanks, John. We will reply by email with a time for your session.</h2>
+                            <h1 loading="lazy">Brief received</h1>
+                            <h2 loading="lazy">Thanks, John. We will reply by email with a time for your session.</h2>
                             <button type="button" class="black_button_t w-100">
                                 Back to 1 on 1
                             </button>
