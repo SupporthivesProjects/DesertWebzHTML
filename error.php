@@ -1,8 +1,8 @@
 <?php include 'includes/header.php'; ?>
 
 <section class="error-header">
-  <img src="assets/img/state.png" alt="" class="bg-image d-none d-md-block d-lg-block" srcset="assets/img/state.png">
-  <img src="assets/img/404-footprints.png" alt="" class="bg-image d-lg-none d-md-none d-block" srcset="assets/img/404-footprints.png">
+  <img src="assets/img/state.png" alt="" class="bg-image d-none d-md-block d-lg-block" srcset="assets/img/state.png" loading="lazy">
+  <img src="assets/img/404-footprints.png" alt="" class="bg-image d-lg-none d-md-none d-block" srcset="assets/img/404-footprints.png" loading="lazy">
 
   <div class="container">
     <div class="error-content-header">

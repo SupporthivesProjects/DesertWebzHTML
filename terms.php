@@ -1,8 +1,8 @@
 <?php include 'includes/header.php'; ?>
 
 <section class="legal-header">
-  <img src="assets/img/legal-header.png" alt="" class="bg-image d-none d-md-block d-lg-block" srcset="assets/img/legal-header.png">
-    <img src="assets/img/legal-header-mo.png" alt="" class="bg-image d-lg-none d-md-none d-block" srcset="assets/img/legal-header-mo.png">
+  <img src="assets/img/legal-header.png" alt="" class="bg-image d-none d-md-block d-lg-block" srcset="assets/img/legal-header.png" loading="lazy">
+    <img src="assets/img/legal-header-mo.png" alt="" class="bg-image d-lg-none d-md-none d-block" srcset="assets/img/legal-header-mo.png" loading="lazy">
 
   <div class="container">
     <div class="legal-content-header">
