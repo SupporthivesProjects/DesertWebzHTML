@@ -44,6 +44,6 @@ Rahul: Invoice / Email Templates.
 # Figma
 figma copy-version:- https://www.figma.com/design/9V6myLQbn9nptwChMHrHEL/AD572---Reskin-Web-Dev---Desertwebz.com--Copy-?node-id=12208-11458&t=l3yW8KvSFmav7HEg-0
 
-live figma :- https://www.figma.com/design/Flr9e4WDPLbMhfahMbOorw/AD572---Reskin-Web-Dev---Desertwebz.com?node-id=12208-11463&m=dev <br>
+live figma :- https://www.figma.4WDPLbMhfahMbOorw/AD572---Reskin-Web-Dev---Desertwebz.com?node-id=12208-11463&m=dev <br>
 
 prototype figma:- https://www.figma.com/proto/Flr9e4WDPLbMhfahMbOorw/AD572---Reskin-Web-Dev---Desertwebz.com?node-id=12208-11358&m=dev&scaling=min-zoom&content-scaling=fixed&page-id=3357%3A851
