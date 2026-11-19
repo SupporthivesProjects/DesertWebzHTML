@@ -114,7 +114,7 @@
             window.addEventListener('scroll', function() {
                 var content = document.querySelector('header');
                 var scrollPosition = window.scrollY;
-                if (scrollPosition > 100) {
+                if (scrollPosition > 10) {
                     content.classList.add("header-scroll", "solid")
                 } else {
                     content.classList.remove("header-scroll", "solid")
@@ -122,7 +122,14 @@
             });
         </script>
         <script>
-        AOS.init();
+            document.addEventListener("DOMContentLoaded", function () {
+                document.querySelectorAll("img").forEach(function (img) {
+                    if (!img.hasAttribute("loading")) {
+                        img.setAttribute("loading", "lazy");
+                    }
+                });
+            });
+            AOS.init();
         </script>
         <script>
         (function(){
@@ -147,6 +154,6 @@
 
             const F=[field($('.ft canvas.sk'),1100,'p,ul,.lg,.bot,h4')];
         })();
-</script>
+    </script>
    </body>
     </html>

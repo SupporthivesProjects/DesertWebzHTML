@@ -131,9 +131,21 @@
                            USD
                         </button>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">USD</a></li>
-                          <li><a class="dropdown-item" href="#">USD</a></li>
-                          <li><a class="dropdown-item" href="#">USD</a></li>
+                          <li>
+                            <a class="dropdown-item active" href="#">
+                              <div  class="on">USD<i>$</i></div>
+                            </a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">
+                              <div class="on">USD<i>$</i></div>
+                            </a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">
+                              <div  class="on">USD<i>$</i></div>
+                            </a>
+                          </li>
                         </ul>
                       </div>
                       <div class="login-btn bg-color-sky">
